@@ -1,0 +1,66 @@
+body {
+  background-color:#4040a1;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  position: relative;
+  top: 70px;
+  left: 8px;
+}
+#searchForm {
+  margin: 155px auto;
+}
+#wikiSearchBox { 
+padding: 5px;
+  border: 3px solid #618685;
+ border-radius: 10px;
+  width: 250px;
+}
+
+.btn {
+  color: #36486b;
+  background: #fefbd8;
+  margin: 40px auto 0 10px;
+}
+
+.btn i {
+  padding: 5px;
+}
+
+.btn:hover {
+  background: #b2b2b2;
+}
+
+.displayResults{
+  height: 100%;
+  width: 90%;
+margin: -20px auto 0 auto;
+}
+
+
+#result {
+  list-style-type:none;
+  vertical-align: center;
+  padding: 5px;
+  margin: 20px 5px 20px 0px;
+  border-bottom: 2px solid gray;
+  border-left: 6px solid lightslategray;
+}
+
+#result a {
+  color: white;
+  text-decoration: none;
+}
+
+#descr{
+  color: #fefbd8;
+}
+a.btn {
+ border: 2px solid gray;
+}
